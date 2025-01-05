@@ -186,6 +186,7 @@
     font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
+    color: #11114a;
 }
 .patent-section p {
     font-size: 1.1rem;
@@ -215,7 +216,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .patent-section h2 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     .patent-section p {
         font-size: 1rem;
@@ -448,5 +449,57 @@ footer .copyright {
     }
     .contact-info {
         flex-direction: column;
+    }
+}
+
+/* General Styles for Patent Section */
+.patent-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.section-paragraph .highlight {
+    color: #d9534f; /* Highlighted text color */
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-paragraph {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .section-paragraph {
+        font-size: 1rem;
+        text-align: left; /* Left-align text for mobile */
     }
 }
